@@ -1,0 +1,6 @@
+.bundle/
+vendor/bundle/
+_*/
+.idea/
+assets/
+*.iml
