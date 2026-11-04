@@ -1,10 +1,10 @@
 ---
-description: older academic projects and early portfolio work
+description: Computer science coursework in reverse engineering, data structures, and databases
 ---
 
-## Academic Portfolio
+## Academic Archive
 
-This is an archive of projects I built while earning my Bachelor's degree at Southern New Hampshire University. It is not meant to represent my current ceiling; it is a useful snapshot of how I approached software when I was formalizing the jump from electronics work into engineering.
+Projects completed while earning my B.S. in Computer Science at Southern New Hampshire University, graduating in 2021. For my current professional work and open-source contributions, visit the [homepage](/).
 
 ***
 
@@ -12,7 +12,7 @@ This is an archive of projects I built while earning my Bachelor's degree at Sou
 
 For CS-410: **Software Reverse Engineering**, I reverse-engineered a legacy program from binary to assembly to C++, then corrected security flaws in the recovered source. I later translated the application from C++ to Java to improve portability, structure, and maintainability.
 
-The project demonstrates reverse engineering, secure cleanup of legacy code, and object-oriented redesign across languages. The revised version uses a `HashMap` to store client records, which is intentionally simple for a classroom artifact but useful for testing and expansion.
+The project demonstrates reverse engineering, secure cleanup of legacy code, and object-oriented redesign across languages. The revised version uses a `HashMap` to store client records, supporting record lookup and updates.
 
 Source: [github.com/JimmyBoomBots3000/Banking](https://github.com/JimmyBoomBots3000/Banking)
 
@@ -24,7 +24,7 @@ Source: [github.com/JimmyBoomBots3000/Banking](https://github.com/JimmyBoomBots3
 
 For CS-260: **Data Structures and Algorithms**, I built four C++ programs demonstrating a vector, linked list, hash table, and binary search tree. Each program reads records from CSV, displays the stored data, searches for individual items, and supports adding or removing entries.
 
-The set is intentionally direct. It shows the core structures, the operations around them, and the beginnings of performance comparison through timed operations.
+The programs exercise the core structures and their operations, with timed operations for performance comparison.
 
 Source: [github.com/JimmyBoomBots3000/DataStructuresAndAlgorithms](https://github.com/JimmyBoomBots3000/DataStructuresAndAlgorithms)
 

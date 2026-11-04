@@ -1,30 +1,65 @@
 ---
-description: software engineer, former electronics technician, systems-minded problem solver
+description: Java and Spring Boot software engineer building production services, full-stack applications, and enterprise integrations
 ---
 
 ## James Richmond
 
-I build software with the habits of someone who spent years diagnosing physical systems: trace the signal, respect the edge cases, and keep asking what changed.
+{% assign experience_years = site.time | date: '%Y%m' | minus: 202105 | divided_by: 100 %}
+I'm a software engineer with {{ experience_years }} years of professional experience building Java services, full-stack applications, and enterprise integrations. I work primarily with Java, Spring Boot, SQL, and JavaFX, and own software from requirements through deployment and production support.
 
-Before becoming a software engineer, I spent more than 15 years in electronics and avionics. That background still shapes how I work. Circuits and code both reward patience, clear mental models, and the willingness to follow a fault all the way down instead of guessing at the shiny part.
+I like understanding the whole system: the business rules, the data, the interface, and what happens when something fails. My earlier work in electronics and avionics still shapes that approach: trace the signal, respect the edge cases, and keep asking what changed.
 
-***
+[Resume](/resume.html) · [GitHub](https://github.com/JimmyBoomBots3000) · [Email](mailto:james.b.richmond@gmail.com)
 
-### What I Do
+### Selected Professional Work
 
-I work primarily in Java, with enough time in other languages and stacks to be useful wherever the problem leads. I care about maintainable backend code, operational clarity, and tools that help people get real work done without making them fight the interface.
+These projects are part of proprietary systems; the descriptions summarize my contributions.
 
-My professional work has mostly lived in proprietary systems, so this site is not a full display case. It is a public marker for who I am as an engineer: practical, curious, comfortable with legacy systems, and allergic to hand-wavy explanations.
+#### Java services and legacy modernization
 
-### Current Focus
+Built a Spring Boot REST service end to end, rewriting core business logic previously embedded in a legacy desktop application so new applications could use it. The service is used daily to support financial transmission rights (FTR) trading portfolios valued at hundreds of millions of dollars. Defined a common interface for credit-calculation rules with differing inputs and behavior.
 
-- Building more public projects that show how I think now, not just what I turned in for class.
-- Keeping old portfolio work available as a time capsule instead of pretending it is my current ceiling.
-- Writing software that is boring in production and interesting in the right places.
+#### Import performance and correctness
+
+Stress testing exposed a bottleneck as an import workflow expanded beyond a few rows. Replaced repeated database queries with bulk queries and added request-scoped caches for repeated calculations, reducing an approximately 15,000-row CSV import from 10 minutes to 5 seconds. Collected and compared calculation outputs to validate the change.
+
+#### Administration tools
+
+Prototyped a JavaFX application to replace manual SQL queries for user and trading-desk administration. Management adopted it, and I expanded it to reports and authentication certificates. Built the application end to end, including its backend services and database integration, along with a reusable JavaFX library.
+
+#### Enterprise integrations and full-stack development
+
+At Justifacts, developed and maintained a Java/JSP web application and background-screening integrations with more than 20 ATS and HRIS platforms, including Workday, Oracle Taleo, SAP SuccessFactors, iCIMS, Greenhouse, and ADP. Built web interfaces using JavaScript, HTML, CSS, and Bootstrap.
+
+### Open Source
+
+#### FontAwesomeFX
+
+Modernized an existing JavaFX icon library with a Maven build, updated Font Awesome catalogs, automated source generation, and a searchable icon viewer, preserving historical icon names. This is an independent fork of FontAwesomeFX by Jens Deters, with original attribution retained.
+
+[View FontAwesomeFX](https://github.com/JimmyBoomBots3000/fontawesomefx)
+
+#### FontAwesomeSwing
+
+Created a native Swing/AWT adaptation of FontAwesomeFX, replacing JavaFX dependencies with Swing icons and components. Includes layered icons, a searchable viewer, and headless tests.
+
+[View FontAwesomeSwing](https://github.com/JimmyBoomBots3000/fontawesomeswing)
+
+#### ControlsFX
+
+I contribute fixes and enhancements to **ControlsFX**, a JavaFX controls library. My pull requests provide public examples of how I work within an existing codebase.
+
+[View my ControlsFX pull requests](https://github.com/controlsfx/controlsfx/pulls?q=is%3Apr+author%3AJimmyBoomBots3000)
 
 ### Background
 
-If you want the longer professional version, my resume is available here: [Resume](/resume.html). The older academic portfolio is still here too: [Academic Portfolio](/academic.html).
+I earned my B.S. in Computer Science from Southern New Hampshire University in 2021, summa cum laude. Before software engineering, I worked in electronics, avionics, quality inspection, and technical management, and served in the U.S. Navy.
+
+My [academic archive](/academic.html) contains coursework in reverse engineering, data structures, and database-backed applications.
+
+### Outside work
+
+Outside work, I coach youth basketball and tinker with electronics. I enjoy figuring out how things work, whether that means tracing a software bug or troubleshooting a circuit.
 
 ### Contact
 

@@ -10,7 +10,7 @@ description: resume and professional background
 Greensburg, PA  
 [james.b.richmond@gmail.com](mailto:james.b.richmond@gmail.com)
 
-Experienced technical professional with a background spanning software engineering, electronics, avionics, quality inspection, technical leadership, and military service. I bring a practical troubleshooting mindset to software: understand the system, trace the behavior, and build fixes that hold up under real operating conditions.
+Software Engineer with 5 years of experience building Java services, full-stack applications, and enterprise integrations. Strong in Spring Boot, REST APIs, SQL, Docker, and AWS, with end-to-end ownership from requirements through deployment and production support. U.S. Navy veteran.
 
 Authorized to work in the US for any employer.
 
@@ -18,16 +18,12 @@ Authorized to work in the US for any employer.
 
 ### Core Skills
 
-- Java, Python, C/C++, JavaScript, HTML, CSS, JSP
-- Spring Boot, J2EE, JDBC, Maven
-- REST APIs, SOAP APIs, XML
-- PostgreSQL, Oracle, SQL, PL/SQL, SQLite, MongoDB, NoSQL
-- Swing, JavaFX, Bootstrap
-- Git, GitHub, GitLab, Bitbucket, SVN
-- Jenkins, CI/CD, Payara, Jira, Postman, Eclipse, IntelliJ IDEA
-- Object-oriented programming, design patterns, MVC, MVVM
-- Troubleshooting, quality assurance, technical writing, record keeping
-- Avionics, aircraft maintenance, soldering, wiring, schematics, oscilloscopes, PCB work
+- **Languages:** Java, Python, JavaScript, PL/SQL, Shell, HTML/CSS, C/C++
+- **Backend:** Spring Boot, J2EE, JSP, Thymeleaf, JDBC, JMS, REST, SOAP
+- **Databases:** PostgreSQL, Oracle, MongoDB, SQLite
+- **Delivery:** Docker, AWS ECR, AWS App Runner, Jenkins, Maven, Git, CI/CD
+- **Tools and practices:** Claude, Codex, Jira, Postman, code review, unit and integration testing, debugging, technical documentation
+- **Additional:** JavaFX, Swing, Bootstrap, Payara, Tomcat, Ant
 
 ***
 
@@ -38,13 +34,17 @@ Authorized to work in the US for any employer.
 **SESCO Enterprises, LLC | Monroeville, PA**  
 January 2023 to Present
 
-Develop and support a suite of Java applications for an energy trading firm. The applications support data collection, storage, analysis, trading workflows, administration, and internal tooling.
+Own production Java services and internal tools supporting 24/7 trading operations, working with traders, analysts, and management from requirements through production support.
 
-- Built and maintained Java applications backed by PostgreSQL.
-- Integrated data sources through SOAP APIs, REST APIs, FTP file locations, and HTML scraping.
-- Supported GUI applications using Swing and JavaFX for pricing analysis and trade execution.
-- Worked with IntelliJ IDEA, Jenkins, GitLab, GitHub, Payara, and JMS.
-- Provided production support for business-critical systems.
+- Designed and built a Spring Boot REST service end to end, rewriting core business logic from a legacy desktop application for use by new clients; used daily to support FTR portfolios valued at hundreds of millions of dollars.
+- Reduced import time for approximately 15,000 CSV rows from 10 minutes to 5 seconds through bulk database queries and request-scoped caching; validated results by collecting and comparing calculation outputs.
+- Designed a common interface for credit-calculation rules with differing inputs and behavior, preserving financial logic while making new rule implementations easier to maintain.
+- Develop and maintain JMS-based messaging between Java data-ingestion jobs and desktop applications, triggering automatic refreshes as new market data becomes available.
+- Build and maintain CI/CD workflows using GitHub, Maven, and Jenkins; containerize services with Docker and deploy to AWS using ECR and App Runner.
+- Independently prototyped and built a JavaFX administration application adopted by management, replacing manual SQL administration with user and desk management; expanded it to reports and authentication certificates.
+- Create and execute unit and integration tests, investigate production issues, and maintain system documentation.
+- Mentor engineers on implementation, debugging, testing, and code quality.
+- Led the hiring process for a software engineer, including designing and conducting the technical interview.
 
 #### Software Developer
 
@@ -54,7 +54,7 @@ May 2021 to January 2023
 Designed, developed, and maintained a web application used by employees and clients to receive, track, and process background screening orders.
 
 - Developed application features in JSP, Java, HTML, JavaScript, and CSS.
-- Built integrations using REST APIs.
+- Developed and maintained background-screening integrations with more than 20 ATS and HRIS platforms, including Workday, Oracle Taleo, SAP SuccessFactors, iCIMS, Greenhouse, and ADP.
 - Designed UI pages with Bootstrap.
 - Worked with PII and sensitive customer information, including encrypted storage.
 - Used Eclipse-based tooling, Chrome DevTools, TOAD, Oracle databases, Postman, Jira, and related tools.
@@ -160,16 +160,16 @@ Requirements for soldered electrical and electronic assemblies.
 
 ***
 
-### Selected Public Work
+### Open Source and Academic Work
 
-**Banking**  
-Reverse-engineering and software design project translated from C++ to Java, with security and maintainability improvements.  
-[github.com/JimmyBoomBots3000/Banking](https://github.com/JimmyBoomBots3000/Banking)
+**ControlsFX**
 
-**Data Structures and Algorithms**  
-C++ implementations demonstrating vector, linked list, hash table, and binary search tree operations.  
-[github.com/JimmyBoomBots3000/DataStructuresAndAlgorithms](https://github.com/JimmyBoomBots3000/DataStructuresAndAlgorithms)
+Contribute fixes and enhancements to the JavaFX controls library.
 
-**Grazioso Salvare**  
-Python client-server coursework project using MongoDB-backed filtering and dashboard presentation.  
-[github.com/JimmyBoomBots3000/GraziosoSalvare](https://github.com/JimmyBoomBots3000/GraziosoSalvare)
+[View my pull requests](https://github.com/controlsfx/controlsfx/pulls?q=is%3Apr+author%3AJimmyBoomBots3000)
+
+**Academic archive**
+
+Coursework in reverse engineering, data structures, and database-backed applications.
+
+[Browse projects](/academic.html)
